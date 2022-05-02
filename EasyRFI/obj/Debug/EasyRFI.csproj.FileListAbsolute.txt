@@ -1,0 +1,11 @@
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\bin\Debug\EasyRFI.exe.config
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\bin\Debug\EasyRFI.exe
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\bin\Debug\EasyRFI.pdb
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.csproj.AssemblyReference.cache
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.EasyRFI.resources
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.Properties.Resources.resources
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.csproj.GenerateResource.cache
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.csproj.CoreCompileInputs.cache
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.exe
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.pdb
+C:\Users\langed\Desenv\EasyRFI\EasyRFI\obj\Debug\EasyRFI.frmPergunta.resources
