@@ -140,14 +140,17 @@ namespace EasyRFI
             this.columnHeader4,
             this.columnHeader5});
             this.lstPerguntas.FullRowSelect = true;
+            this.lstPerguntas.GridLines = true;
             this.lstPerguntas.HideSelection = false;
-            this.lstPerguntas.Location = new System.Drawing.Point(12, 115);
+            this.lstPerguntas.Location = new System.Drawing.Point(12, 110);
             this.lstPerguntas.Name = "lstPerguntas";
-            this.lstPerguntas.Size = new System.Drawing.Size(798, 432);
+            this.lstPerguntas.Size = new System.Drawing.Size(798, 437);
             this.lstPerguntas.SmallImageList = this.imgPerg;
             this.lstPerguntas.TabIndex = 7;
             this.lstPerguntas.UseCompatibleStateImageBehavior = false;
             this.lstPerguntas.View = System.Windows.Forms.View.Details;
+            this.lstPerguntas.SelectedIndexChanged += new System.EventHandler(this.lstPerguntas_SelectedIndexChanged);
+            this.lstPerguntas.DoubleClick += new System.EventHandler(this.btnAltPergunta_Click);
             // 
             // columnHeader2
             // 
@@ -202,7 +205,6 @@ namespace EasyRFI
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
-
     }
 }
 
