@@ -136,6 +136,18 @@ namespace EasyRFI
                 return 0;
             }
         }
+
+        public List<Pergunta> Onde_e_Usado(string Produto, Perguntas perguntas)
+        {
+            List<Pergunta> retorno = new List<Pergunta>();
+
+            foreach (Pergunta perg in perguntas.perguntas)
+                if (perg.regra.produtos.Contains(Produto))
+                    if (!retorno.Contains(perg))
+                        retorno.Add(perg);
+
+            return retorno;
+        }
     }
 
     [DataContract]

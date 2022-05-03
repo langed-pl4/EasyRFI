@@ -1,0 +1,24 @@
+{
+  "perguntas": [
+    {
+      "pergunta": "A solução suporta múltiplos tipos de bancos de dados? Quais?",
+      "regra": {
+        "aderencia": "Atende Nativamente",
+        "justificativa": "Suporta Oracle e SQL Server",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução suporta múltiplos tipos de bancos de dados? Quais?",
+      "regra": {
+        "aderencia": "Não Atende",
+        "justificativa": "Suporta Apenas PostgreSQL",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    }
+  ]
+}

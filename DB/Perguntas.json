@@ -1,10 +1,990 @@
 {
   "perguntas": [
     {
+      "pergunta": "A solução possui a funcionalidade para a abertura e tratamento de solicitações \/ informações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite a abertura de Solicitações (Issues) e após abertas podem seguir um fluxo definido pelo cliente para tratamento das informações",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui componentes de comunicação e colaboração desenvolvidos e disponíveis na plataforma de forma nativa? Quais?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Chat, foruns, envio de e-mails internos e externos.",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui funcionalidade Watchdog ou Deamon para configurar a emissão de notificações a partir de eventos de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Podem ser configurados notificações ou ações quando um evento pre-determinado ocorrer",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite configuração dos perfis para grupos de usuários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Porem ser criados perfis para grupos de usuarios e definir as permissões conforme a necessidade",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite configurar o acesso a determinados campos de um formulário criando perfis de usuário e segregando por função e\/ou grupo de usuários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "As permissões podem ser dadas diretamente ao usuário ou ao perfil do usuario",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar acesso por grupos de usuários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A Solução tem um ambiente de administração completo que permite criar, editar e excluir, grupos, sub-grupos e papeis para os usuarios",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar perfis de acesso temporários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O modelo de licenciamento do Polarion permite que uma licença seja atribuida a um usuario temporário e posteriormente bloqueada",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite registrar (logar) qualquer alteração\/inclusão\/exclusão em dados efetuado pelo usuário (Log do usuário)?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todas as ações dos usuários são registradas em LOG, como alteração\/inclusão\/exclusão",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite registrar os eventos em Log quando se usa escrita por API? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todos os acessos via API respeitam as politicas de segurança da aplicação. Sendo assim todos os eventos executados via API tambem são registrados em LOG",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite rotular Documentos quanto a classificação da informação de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Existe a possibilidade de atribuir rótulos e ou status aos documentos.",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite desenvolvimento de scripts\/rotinas que apliquem automaticamente regras de negócio sobre os componentes publicados na plataforma (Documentos, dados, metadados, ontologias e etc.) ?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A Solução permite a configuração das regras de negocio via interface visual e ou scripts\/rotinas customizados",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução disponibiliza uma interface única e intuitiva possível de consolidar e buscar dados na sua base de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Uma dos pilares da solução é disponibilizar uma interface única e centralizada para que os dados possam ser encontrados e consolidados de forma intuitiva e nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução permite a elaboração de formulários configuráveis através da interface gráfica de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite a elaboração e configuração de formularios na propria interface de forma nativa. Permitindo que cada cliente possa configurar o sistema de acordo com sua necessidade",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite configuração e extração de relatórios em .pdf e .xlsx a partir de dados disponíveis no banco de dados da solução de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução tem recursos que permitem a exportação de dados para formatos conhecidos como .pdf e .xslx de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar ou configurar diferentes relatórios (gerador de relatórios) a partir de qualquer metadado do banco de dados da solução de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução varios recursos para geração de reports, uma delas chamada de live-report permite que o usuario possa elaborar reports de forma simples e intuitiva",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar ou configurar diferentes visualizações de dados (Dashboards) de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O recurso de live-report tambem pode ser utilizado para criar e personalizar dashboards de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite exibição de previews com visualizações de dados\/modelos\/documentos sem precisar baixar o mesmo para a visualização na ferramenta adequada de forma nativa? Quais formatos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os mais diversos formatos podem ser visualizados de forma nativa dentro da solução sem necessidade de download.",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite integração com BIs de mercado de forma nativa? Quais?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução utiliza o bando de dados PostgreSQL que permite que softwares ETL possam extrair, tratar e importar as informações no Data Lake do BI",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite salvar e compartilhar parâmetros de buscas e consultas, para que um usuário possa compartilhar os resultados obtidos com outros de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "As pesquisas realizadas podem ser salvas e compartilhada com outros usuarios de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui recurso de busca e consulta estruturada, não só palavras chaves mas com combinação de atributos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todos os atributos do objeto podem ser utilizados como parametro para realização de pesquisas, reports e dashboards",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A sua solução permite inicializar outras aplicações web a partir da interface com o usuário de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite incluir links de outros sistemas para que ao serem acionados possam iniciar o programa web correspondente",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos de forma offline, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite exportar o documento atraves do recurso Round-trip e depois reimportar o documento entendendo as alterações realizados no documento",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos de forma online, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A visualização de documentos de forma online é inerente a solução",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos em plataforma móvel de forma offline, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Por ser totalmente web, a solução pode ser acessada atravez de qualquer dispositivo movel via browser web",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos em plataforma móvel de forma online, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A visualização de documentos de forma online é inerente a solução tambem em dispositivos móveis",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite associar atributos parametrizáveis a um determinado requisitos e documento de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Atributos parametrizaveis podem ser associados a qualquer objeto da solução como documentos e requisitos. Esses atributos podem ser utilizados para realizar pesquisas, regrar relatorios e dashboards",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite o versionamento de revisões de documentos, mantendo o registro das versões antigas, seus logs e seus metadados de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todos os objetos da solução são revisionaveis mantendo o historico das alterações que podem ser acessados a qualquer momento",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução pode ser oferecida em nuvem privada?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução é oferecida e nuvem privada ou on-premisse",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução pode ser oferecida em nuvem? Quais fornecedores de nuvem?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Amazon e T-Systems",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução pode ser oferecida On-premisse?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução pode rodar on-premisse",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui licença do tipo SAS (Software as a Service)?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "SAS tambem é uma modalidade ofertada",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
       "pergunta": "A solução suporta múltiplos tipos de bancos de dados? Quais?",
       "regra": {
-        "aderencia": "Atende Nativamente",
-        "justificativa": "Suporta Oracle e SQL Server",
+        "aderencia": "Não Aderente",
+        "justificativa": "A solução roda sobre o banco de dados PostgreSQL",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução suporta os seguintes ambientes independentes: Desenvolvimento, Teste, Homologação, Treinamento e Produção?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução não só suporta como recomenda diferentes ambientes como DEV, QA e PRD",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a importação no formato xls, xlsx e csv para formulários de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite importação de dos formatos xls, xlsx e ReqIF",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a importação de forma total e diferencial de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "No momento da importação existe um recurso de preview que permite configurar o que será importado e como as informações serão importadas",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a categorização dos requisitos com base nos relacionamentos Requisitos x Tipos de Documentos de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O sistema permite definir quais requisitos se aplicam para cada tipo de documento",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a indicação da aplicabilidade dos requisitos em documentos com base nos relacionamentos Requisitos x Tipos de Documentos de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O sistema permite definir quais requisitos se aplicam para cada tipo de documento de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a indicação de impacto do requisito em parâmetros customizáveis com base nos relacionamentos Requisitos x Parâmetros Customizáveis?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Podem ser criados parametros\/atributos que permitem a indicação do impacto do requisito de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a indicação do impacto do requisito nos projetos em andamento com base nos relacionamentos Requisitos x Projetos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Podem ser criados reports que consolidam os requsitos dos projetos em andamento e indicam o seu impacto de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar pelo menos três propósitos para um mesmo requisito e documento de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Pode ser criado um atributo para o requisito onde podem ser informações os propositos deste de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite manter um Histórico das Demandas de Alteração dos Requisitos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todas as demandas de alteração dos requisitos gerenciadas pela solução tem controle de historico",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite o registro de Demanda de Alteração de Requisito?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite a configuração de um objeto para registrar a demanda de alteração de um requisito",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite rastrear o impacto do Requisito alterado com os demais requisitos relacionados?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Existe um recurso chamado de auto-suspect que quando acionado pelo administrador, sinaliza com um flag grafico os requsitos impactados pelo requisito alterado",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite versionar o Requisito, mantendo um histórico das alterações?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Sempre que um requisito é versionado o historico é mantido permitindo inclusive a comparação entre 2 diferentes revisões",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite nativamente a integração com ferramentas de automação de projetos.",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os requisitos podem vir em formato MSWord ou em formato ReqIF (Formato convencionado para importação\/exportação de requisitos)",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a criação de fluxos de trabalho, possibilitando sua configuração e acompanhamento de forma gráfica os parâmetros do workflow (Ex.: Prazos, responsáveis por tarefas e etc) de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os fluxos são criados via interface grafica nativa, e podem ser configurados de acordo com a necessidade de cada cliente",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a definição de Perfis de Acesso (atores do workflow) para cada atividade do workflow controlando o acesso e as ações permitidas de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Para cada etapa do workflow podem ser definidos diferentes tipos de acesso para cada perfil",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite anexar arquivos (docx, doc, xls, xlsx, pptx, ppt, pdf e csv) e fotos (jpg, png e gif) nos formulários nativos e criados nos workflows de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite anexar qualquer tipo de arquivo de acordo com as configurações do Administrador do sistema",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar pendências (tarefas) para as atividades do workflow  anexando arquivos de evidência e controlando as respostas e os encerramentos de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os workflow são configuraveis de acordo com a demanda. Para cada atividade do workflow podem ser configurados tarefas e controlar as respostas de forma nativa",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite fluxo de trabalho para a análise e aprovação dos requisitos pelas diversas etapas com perfis e controle de acesso de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite a aprovação dos requisitos e tambem permite exigir que a aprovação seja acompanhada de uma assinatura eletronica",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite notificar, via e-mail e sistema, o  responsável por etapa do workflow associada à ação de análise \/ consolidação \/ aprovação de um documento, conforme a frequência de notificação configurada de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O envio de e-mails podem ser configurados e o usuario tambem pode acompanhar via sistema as tarefas pendentes e atribuidas a ele",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite o direcionamento do Requisito para uma análise de disciplina específica utilizando um fluxo alternativo ao padrão, após a finalização deste de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O envio de e-mails podem ser configurados e o usuario tambem pode acompanhar via sistema as tarefas pendentes e atribuidas a ele",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite realizar o versionamento de workflow? Quais políticas de versionamento? ",
+      "regra": {
+        "aderencia": "Não Aderente",
+        "justificativa": "",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite ter vários níveis de administração do workflow?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O usuário com perfil de administrador pode criar,modificar, exluir os workflows. Os demais perfis apenas participam do workflow",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "O fornecedor da Solução oferece o treinamento de uso do sistema a ser prestado aos usuários, de acordo com os perfis de uso do sistema? EAD Sem Instrutor? EAD com Instrutor? Presencial?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A Siemens tem uma plataforma web para treinamentos on-demand. Tambem existe a possibilidade de treinamento EAD com Instrutor ou Presencial",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite definir politicas de aprovação nas atividades de aprovação de forma nativa? Quais? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Para cada etapa do workflow podem ser definidos o quorum para aprovação, se todos os membros precisam aprovar, ou se apenas 1 podem aprovar para a tarefa seguir",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a autenticação dos usuários Petrobras realizada através do IDP Petrobras (Microsoft AD FS) com utilização do SSO?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução tem permite a integração com AD",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a integração com o IDP\/ADFS da Petrobras conforme o padrão para a autenticação de usuários externos (sem chave Petrobras)?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Pode ser configurado de acordo com a politica do cliente",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução, na modalidade SaaS, atende aos requisitos de segurança conforme o padrão da Petrobras: PE-2SCI-00029 - REQUISITOS DE SEGURANÇA PARA UTILIZAÇÃO DE COMPUTAÇÃO EM NUVEM?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução permite a  integração com sistemas on-premises utilizando os seguintes componentes: SAP Business Technology Platform (SAP API Management e\/ou SAP CPI ? Quais?",
+      "regra": {
+        "aderencia": "Atende com desenvolvimento",
+        "justificativa": "O Sistema suporta integração via SOAP, REST e troca de arquivos via FTP. ",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução utiliza quais tipos de clientes? WEB? Desktop? Mobile? Existe alguma limitação? Qual(is)? Precisa de plugin para Java Script?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "\"Google Chrome Latest",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite notificar com indicação de ciência, via e-mail e sistema, o  responsável por etapa do workflow associada à uma alteração de um requisito, conforme a frequência de notificação configurada de forma nativa?",
+      "regra": {
+        "aderencia": "Atende com desenvolvimento",
+        "justificativa": "Para configurar frequencia de notificação é necessário customização",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite encaminhar uma tarefa de uma determinada atividade do workflow de um usuário para outro com o mesmo perfil de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A demanda pode ser redirecionada para usuarios com o mesmo perfil de forma nativa.",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite delegar permissões dos papeis do workflow de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Cada etapa do workflow permite delegar quem são os responsáveis pela ação",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite realizar tarefas de forma automatica em atividades do  workflow de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Algumas atividades podem ser ser configuradas para realizar ações de maneira automatica sem a iteração dos usuários",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite logar todas as validações,aprovações e etc realizadas no ciclo de vida do requisito de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todas as ações no sistema ficam registradas em LOG e podem ser acessadas sempre que necessário",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite retornar para atividades anteriores a atual, em execução, decorrente da necessiade de refazer uma tarefa, de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O workflow deve ser configurado para permiter que a a tarefa seja retornada. Dessa forma é possivel refazer a ação.",
+        "produtos": [
+          "Polarion"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui a funcionalidade para a abertura e tratamento de solicitações \/ informações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite a abertura de Solicitações (Issues) e após abertas podem seguir um fluxo definido pelo cliente para tratamento das informações",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui componentes de comunicação e colaboração desenvolvidos e disponíveis na plataforma de forma nativa? Quais?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Chat, foruns, envio de e-mails internos e externos.",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui funcionalidade Watchdog ou Deamon para configurar a emissão de notificações a partir de eventos de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Podem ser configurados notificações ou ações quando um evento pre-determinado ocorrer",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite configuração dos perfis para grupos de usuários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Porem ser criados perfis para grupos de usuarios e definir as permissões conforme a necessidade",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite configurar o acesso a determinados campos de um formulário criando perfis de usuário e segregando por função e\/ou grupo de usuários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "As permissões podem ser dadas diretamente ao usuário ou ao perfil do usuario",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar acesso por grupos de usuários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A Solução tem um ambiente de administração completo que permite criar, editar e excluir, grupos, sub-grupos e papeis para os usuarios",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar perfis de acesso temporários?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O modelo de licenciamento permite que uma licença seja atribuida a um usuario temporário e posteriormente bloqueada",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite registrar (logar) qualquer alteração\/inclusão\/exclusão em dados efetuado pelo usuário (Log do usuário)?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todas as ações dos usuários são registradas em LOG, como alteração\/inclusão\/exclusão",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite registrar os eventos em Log quando se usa escrita por API? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todos os acessos via API respeitam as politicas de segurança da aplicação. Sendo assim todos os eventos executados via API tambem são registrados em LOG",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite rotular Documentos quanto a classificação da informação de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Existe a possibilidade de atribuir rótulos e ou status aos documentos.",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite desenvolvimento de scripts\/rotinas que apliquem automaticamente regras de negócio sobre os componentes publicados na plataforma (Documentos, dados, metadados, ontologias e etc.) ?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A Solução permite a configuração das regras de negocio via interface visual e ou scripts\/rotinas customizados",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução disponibiliza uma interface única e intuitiva possível de consolidar e buscar dados na sua base de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Uma dos pilares da solução é disponibilizar uma interface única e centralizada para que os dados possam ser encontrados e consolidados de forma intuitiva e nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução permite a elaboração de formulários configuráveis através da interface gráfica de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite a elaboração e configuração de formularios na propria interface de forma nativa. Permitindo que cada cliente possa configurar o sistema de acordo com sua necessidade",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite configuração e extração de relatórios em .pdf e .xlsx a partir de dados disponíveis no banco de dados da solução de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução tem recursos que permitem a exportação de dados para formatos conhecidos como .pdf e .xslx de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar ou configurar diferentes relatórios (gerador de relatórios) a partir de qualquer metadado do banco de dados da solução de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução varios recursos para geração de reports, uma delas chamada de live-report permite que o usuario possa elaborar reports de forma simples e intuitiva",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar ou configurar diferentes visualizações de dados (Dashboards) de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O recurso de live-report tambem pode ser utilizado para criar e personalizar dashboards de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite exibição de previews com visualizações de dados\/modelos\/documentos sem precisar baixar o mesmo para a visualização na ferramenta adequada de forma nativa? Quais formatos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os mais diversos formatos podem ser visualizados de forma nativa dentro da solução sem necessidade de download.",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite integração com BIs de mercado de forma nativa? Quais?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução utiliza o bando de dados PostgreSQL que permite que softwares ETL possam extrair, tratar e importar as informações no Data Lake do BI",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite salvar e compartilhar parâmetros de buscas e consultas, para que um usuário possa compartilhar os resultados obtidos com outros de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "As pesquisas realizadas podem ser salvas e compartilhada com outros usuarios de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui recurso de busca e consulta estruturada, não só palavras chaves mas com combinação de atributos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todos os atributos do objeto podem ser utilizados como parametro para realização de pesquisas, reports e dashboards",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A sua solução permite inicializar outras aplicações web a partir da interface com o usuário de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite incluir links de outros sistemas para que ao serem acionados possam iniciar o programa web correspondente",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução fornece funcionalidade de reconhecimento de caracteres (OCR) a partir de documentos digitalizados de forma nativa?",
+      "regra": {
+        "aderencia": "Não Aderente",
+        "justificativa": "",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos de forma offline, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite exportar o documento atraves do recurso Round-trip e depois reimportar o documento entendendo as alterações realizados no documento",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos de forma online, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A visualização de documentos de forma online é inerente a solução",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos em plataforma móvel de forma offline, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Por ser totalmente web, a solução pode ser acessada atravez de qualquer dispositivo movel via browser web",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a visualização dos documentos em plataforma móvel de forma online, permitindo comentários e marcações de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A visualização de documentos de forma online é inerente a solução tambem em dispositivos móveis",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite associar atributos parametrizáveis a um determinado requisitos e documento de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Atributos parametrizaveis podem ser associados a qualquer objeto da solução como documentos e requisitos. Esses atributos podem ser utilizados para realizar pesquisas, regrar relatorios e dashboards",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite o versionamento de revisões de documentos, mantendo o registro das versões antigas, seus logs e seus metadados de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todos os objetos da solução são revisionaveis mantendo o historico das alterações que podem ser acessados a qualquer momento",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução pode ser oferecida em nuvem privada?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução é oferecida e nuvem privada ou on-premisse",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução pode ser oferecida em nuvem? Quais fornecedores de nuvem?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Amazon e T-Systems",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução pode ser oferecida On-premisse?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução pode rodar on-premisse",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução possui licença do tipo SAS (Software as a Service)?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "SAS tambem é uma modalidade ofertada",
         "produtos": [
           "Teamcenter"
         ]
@@ -13,10 +993,360 @@
     {
       "pergunta": "A solução suporta múltiplos tipos de bancos de dados? Quais?",
       "regra": {
-        "aderencia": "Não Atende",
-        "justificativa": "Suporta Apenas PostgreSQL",
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução roda sobre o banco de dados SQL Server ou Oracle",
         "produtos": [
-          "Polarion"
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução suporta os seguintes ambientes independentes: Desenvolvimento, Teste, Homologação, Treinamento e Produção?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução não só suporta como recomenda diferentes ambientes como DEV, QA e PRD",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a importação no formato xls, xlsx e csv para formulários de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite importação de dos formatos xls, xlsx e ReqIF",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a importação de forma total e diferencial de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "No momento da importação existe um recurso de preview que permite configurar o que será importado e como as informações serão importadas",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a categorização dos requisitos com base nos relacionamentos Requisitos x Tipos de Documentos de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O sistema permite definir quais requisitos se aplicam para cada tipo de documento",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a indicação da aplicabilidade dos requisitos em documentos com base nos relacionamentos Requisitos x Tipos de Documentos de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O sistema permite definir quais requisitos se aplicam para cada tipo de documento de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a indicação de impacto do requisito em parâmetros customizáveis com base nos relacionamentos Requisitos x Parâmetros Customizáveis?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Podem ser criados parametros\/atributos que permitem a indicação do impacto do requisito de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a indicação do impacto do requisito nos projetos em andamento com base nos relacionamentos Requisitos x Projetos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Podem ser criados reports que consolidam os requsitos dos projetos em andamento e indicam o seu impacto de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar pelo menos três propósitos para um mesmo requisito e documento de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Pode ser criado um atributo para o requisito onde podem ser informações os propositos deste de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite manter um Histórico das Demandas de Alteração dos Requisitos?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todas as demandas de alteração dos requisitos gerenciadas pela solução tem controle de historico",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite o registro de Demanda de Alteração de Requisito?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite a configuração de um objeto para registrar a demanda de alteração de um requisito",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite rastrear o impacto do Requisito alterado com os demais requisitos relacionados?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Existe um recurso chamado de auto-suspect que quando acionado pelo administrador, sinaliza com um flag grafico os requsitos impactados pelo requisito alterado",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite versionar o Requisito, mantendo um histórico das alterações?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Sempre que um requisito é versionado o historico é mantido permitindo inclusive a comparação entre 2 diferentes revisões",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite nativamente a integração com ferramentas de automação de projetos.",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os requisitos podem vir em formato MSWord ou em formato ReqIF (Formato convencionado para importação\/exportação de requisitos)",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a criação de fluxos de trabalho, possibilitando sua configuração e acompanhamento de forma gráfica os parâmetros do workflow (Ex.: Prazos, responsáveis por tarefas e etc) de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os fluxos são criados via interface grafica nativa, e podem ser configurados de acordo com a necessidade de cada cliente",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a definição de Perfis de Acesso (atores do workflow) para cada atividade do workflow controlando o acesso e as ações permitidas de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Para cada etapa do workflow podem ser definidos diferentes tipos de acesso para cada perfil",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite anexar arquivos (docx, doc, xls, xlsx, pptx, ppt, pdf e csv) e fotos (jpg, png e gif) nos formulários nativos e criados nos workflows de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução permite anexar qualquer tipo de arquivo de acordo com as configurações do Administrador do sistema",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite criar pendências (tarefas) para as atividades do workflow  anexando arquivos de evidência e controlando as respostas e os encerramentos de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Os workflow são configuraveis de acordo com a demanda. Para cada atividade do workflow podem ser configurados tarefas e controlar as respostas de forma nativa",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite fluxo de trabalho para a análise e aprovação dos requisitos pelas diversas etapas com perfis e controle de acesso de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Permite a aprovação dos requisitos e tambem permite exigir que a aprovação seja acompanhada de uma assinatura eletronica",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite notificar, via e-mail e sistema, o  responsável por etapa do workflow associada à ação de análise \/ consolidação \/ aprovação de um documento, conforme a frequência de notificação configurada de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O envio de e-mails podem ser configurados e o usuario tambem pode acompanhar via sistema as tarefas pendentes e atribuidas a ele",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite o direcionamento do Requisito para uma análise de disciplina específica utilizando um fluxo alternativo ao padrão, após a finalização deste de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O envio de e-mails podem ser configurados e o usuario tambem pode acompanhar via sistema as tarefas pendentes e atribuidas a ele",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite realizar o versionamento de workflow? Quais políticas de versionamento? ",
+      "regra": {
+        "aderencia": "Não Aderente",
+        "justificativa": "",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite ter vários níveis de administração do workflow?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O usuário com perfil de administrador pode criar,modificar, exluir os workflows. Os demais perfis apenas participam do workflow",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "O fornecedor da Solução oferece o treinamento de uso do sistema a ser prestado aos usuários, de acordo com os perfis de uso do sistema? EAD Sem Instrutor? EAD com Instrutor? Presencial?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A Siemens tem uma plataforma web para treinamentos on-demand. Tambem existe a possibilidade de treinamento EAD com Instrutor ou Presencial",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite definir politicas de aprovação nas atividades de aprovação de forma nativa? Quais? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Para cada etapa do workflow podem ser definidos o quorum para aprovação, se todos os membros precisam aprovar, ou se apenas 1 podem aprovar para a tarefa seguir",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a autenticação dos usuários Petrobras realizada através do IDP Petrobras (Microsoft AD FS) com utilização do SSO?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A solução tem permite a integração com AD",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite a integração com o IDP\/ADFS da Petrobras conforme o padrão para a autenticação de usuários externos (sem chave Petrobras)?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Pode ser configurado de acordo com a politica do cliente",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução, na modalidade SaaS, atende aos requisitos de segurança conforme o padrão da Petrobras: PE-2SCI-00029 - REQUISITOS DE SEGURANÇA PARA UTILIZAÇÃO DE COMPUTAÇÃO EM NUVEM?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução permite a  integração com sistemas on-premises utilizando os seguintes componentes: SAP Business Technology Platform (SAP API Management e\/ou SAP CPI ? Quais?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "\"A Solução oference uma interface de integração homologada para integração com SAP. Essa solução realização a comunicação via conectores fornecidos pela SAP como JCO, Netwearev, RFC.",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A Solução utiliza quais tipos de clientes? WEB? Desktop? Mobile? Existe alguma limitação? Qual(is)? Precisa de plugin para Java Script?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "\"Google Chrome Latest",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite notificar com indicação de ciência, via e-mail e sistema, o  responsável por etapa do workflow associada à uma alteração de um requisito, conforme a frequência de notificação configurada de forma nativa?",
+      "regra": {
+        "aderencia": "Atende com desenvolvimento",
+        "justificativa": "Para configurar frequencia de notificação é necessário customização",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite encaminhar uma tarefa de uma determinada atividade do workflow de um usuário para outro com o mesmo perfil de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "A demanda pode ser redirecionada para usuarios com o mesmo perfil de forma nativa.",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite delegar permissões dos papeis do workflow de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Cada etapa do workflow permite delegar quem são os responsáveis pela ação",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite realizar tarefas de forma automatica em atividades do  workflow de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Algumas atividades podem ser ser configuradas para realizar ações de maneira automatica sem a iteração dos usuários",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite logar todas as validações,aprovações e etc realizadas no ciclo de vida do requisito de forma nativa?",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "Todas as ações no sistema ficam registradas em LOG e podem ser acessadas sempre que necessário",
+        "produtos": [
+          "Teamcenter"
+        ]
+      }
+    },
+    {
+      "pergunta": "A solução permite retornar para atividades anteriores a atual, em execução, decorrente da necessiade de refazer uma tarefa, de forma nativa? ",
+      "regra": {
+        "aderencia": "Atende nativamente",
+        "justificativa": "O workflow deve ser configurado para permiter que a a tarefa seja retornada. Dessa forma é possivel refazer a ação.",
+        "produtos": [
+          "Teamcenter"
         ]
       }
     }
